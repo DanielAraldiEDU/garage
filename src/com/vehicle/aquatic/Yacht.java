@@ -1,6 +1,8 @@
 package com.vehicle.aquatic;
 
-public class Yacht {
+import com.vehicle.Vehicle;
+
+public class Yacht implements Vehicle {
   private String name;
   private String captain;
 
@@ -14,5 +16,10 @@ public class Yacht {
 
   public String getName() {
     return this.name;
+  }
+
+  @Override
+  public String getDetailsVehicle() {
+    return "\nName: " + this.name + " | Captaion: " + this.captain + "\n";
   }
 }

@@ -1,6 +1,6 @@
 package com.vehicle;
 
-public abstract class LandVehicle {
+public abstract class LandVehicle implements Vehicle {
   protected String model;
   protected String plate;
   protected String driver;

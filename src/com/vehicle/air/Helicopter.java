@@ -1,6 +1,8 @@
 package com.vehicle.air;
 
-public class Helicopter {
+import com.vehicle.Vehicle;
+
+public class Helicopter implements Vehicle {
   private String model;
   private String acronym;
   private String pilot;
@@ -18,5 +20,10 @@ public class Helicopter {
     return "\nHelicopter: " + this.model +
         " | Acronym: " + this.acronym +
         " | Pilot: " + this.pilot + "\n";
+  }
+
+  @Override
+  public String getDetailsVehicle() {
+    return this.detail();
   }
 }

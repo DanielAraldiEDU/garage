@@ -21,4 +21,9 @@ public class Truck extends LandVehicle {
         " | Capacity: " + this.capacity +
         " | Driver: " + this.driver + "\n";
   }
+
+  @Override
+  public String getDetailsVehicle() {
+    return this.detail();
+  }
 }

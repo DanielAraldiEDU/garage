@@ -21,4 +21,9 @@ public class Car extends LandVehicle {
         " | Power: " + this.power +
         " | Driver: " + this.driver + "\n";
   }
+
+  @Override
+  public String getDetailsVehicle() {
+    return this.detail();
+  }
 }
