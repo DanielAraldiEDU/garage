@@ -20,6 +20,6 @@ public class Yacht implements Vehicle {
 
   @Override
   public String getDetailsVehicle() {
-    return "\nName: " + this.name + " | Captaion: " + this.captain + "\n";
+    return "\nName: " + this.name + " | Captain: " + this.captain + "\n";
   }
 }

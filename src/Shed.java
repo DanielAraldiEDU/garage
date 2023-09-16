@@ -19,9 +19,9 @@ public class Shed {
     String allVehicles = "";
     for (int index = 0; index < vehicles.length; index++) {
       if (vehicles[index] != null) {
-        allVehicles += vehicles[index].getDetailsVehicle() + "\n";
+        allVehicles += vehicles[index].getDetailsVehicle();
       }
     }
-    return allVehicles;
+    return allVehicles + "\n";
   }
 }
