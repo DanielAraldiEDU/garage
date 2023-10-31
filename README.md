@@ -18,7 +18,7 @@ O Sr. Steve Harris, um abastado cantor de uma banda famosa, possui uma grande fr
      alt="Diagrama UML - Exercício 1"
      src="./.github/diagram-uml-exercise-one.png">
 
-2. Crie a classe `Shed`. A classe `Shed` possui uma agregação com muitos veículos, não importando se esses veículos são terrestres, aéreos ou aquáticos. Perceba que Veiculo é uma interface que especifica um método abstrato que retorna um **texto** contendo todas as informações do veículo. Você deve fazer com que todos os veículos de Steve possam ser inseridos no galpão, sem alterar o tipo do parâmetro do método `addVehicle` na classe `Shed`. Você deverá decidir que alterações precisarão ser realizadas nas classes do Exercício 1 para atender a esse requisito. Atenção, para a solução dessa atividade `não` é necessário utilizar o operador `instanceof` e nem realizar testes condicionais para decidir o tipo de veículo.
+2. Crie a classe `Shed`. A classe `Shed` possui uma agregação com muitos veículos, não importando se esses veículos são terrestres, aéreos ou aquáticos. Perceba que veículo é uma interface que especifica um método abstrato que retorna um **texto** contendo todas as informações do veículo. Você deve fazer com que todos os veículos de Steve possam ser inseridos no galpão, sem alterar o tipo do parâmetro do método `addVehicle` na classe `Shed`. Você deverá decidir que alterações precisarão ser realizadas nas classes do Exercício 1 para atender a esse requisito. Atenção, para a solução dessa atividade **não** é necessário utilizar o operador `instanceof` e nem realizar testes condicionais para decidir o tipo de veículo.
    <img 
      width="100%" 
      height="auto" 
